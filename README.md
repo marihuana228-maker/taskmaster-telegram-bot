@@ -1,27 +1,23 @@
-# TaskMaster Bot — Telegram бот для управления задачами
+# TaskMaster Bot — Telegram-бот для задач и напоминаний
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
-![aiogram](https://img.shields.io/badge/aiogram-3.x-green.svg)
+**Готовый Telegram-бот** на Python с дедлайнами и автоматическими напоминаниями за 1 час.
 
-**Умный Telegram-бот** для создания задач с дедлайнами и автоматическими напоминаниями.
-
-### ✨ Основные возможности
-
-- ➕ Добавление задач с указанием дедлайна
-- 📋 Просмотр всех задач с статусами
-- ✅ Отметка задач как выполненных
+### ✨ Что умеет бот
+- ➕ Добавление задач с дедлайном
+- 📋 Просмотр всех задач
+- ✅ Отметка выполненных задач
 - 🗑 Удаление задач
-- ⏰ **Автоматические напоминания** за 1 час до дедлайна
+- ⏰ Автоматические напоминания за 1 час до дедлайна
 - Удобное меню с кнопками
-- Хранение данных в SQLite (данные сохраняются даже после перезапуска)
 
 ### 🎯 Демо-бот
+Попробуйте сами: **@taskmaster_helper_bot**
 
-@taskmaster_helper_bot — попробуйте прямо сейчас!
+Просто напишите `/start`
 
-### 🚀 Как запустить локально
+### 🚀 Как запустить самому
 
-1. Склонируйте репозиторий:
-   ```bash
-   git clone https://github.com/marihuana228-maker/taskmaster-telegram-bot.git
-   cd taskmaster-telegram-bot
+```bash
+git clone https://github.com/marihuana228-maker/taskmaster-telegram-bot.git
+cd taskmaster-telegram-bot
+pip install -r requirements.txt
